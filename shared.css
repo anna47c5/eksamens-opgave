@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img,
+  video {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+body {
+cursor: url(SVG/maincursor.png), auto;
+}
+
+
+/* HEADER - NAV-BAR */
+
+#header {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+/* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  } 
+  
+li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+ul {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+li:first-child {
+    text-align: left;
+}
+
+li {
+    text-align: center;
+   /*border: 2px solid black;*/
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+  }
+
+li:last-child {
+    border-bottom: 2px solid black;
+    text-align: right;
+  }
+
+li:first-child :hover {
+    background-image: url(Billeder/psy1.jpg);
+    background-size: cover;
+    font-size: 4rem;
+    color: white;
+}
+
+li :hover {
+    background-image: url(Billeder/psy2.jpg);
+    background-size: cover;
+    font-size: 4rem;
+    color: white;
+}
+
+li:last-child :hover {
+    background-image: url(Billeder/skyes.jpg);
+    background-size: cover;
+    font-size: 4rem;
+    color: white;
+}
+
+.marqueeborder {
+    border: solid 2px black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-left: none;
+    border-right: none;
+}
+
+.marquee {
+    white-space: nowrap;
+    animation: rightThenLeft 6s linear;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+    animation-iteration-count:infinite;
+    margin: 10px;
+
+}
+
+.marqueeborder :hover {
+    background-image: url(Billeder/sunset.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 4rem;
+}
+
+@keyframes rightThenLeft {
+    0% { left: 100%; }
+    100% { left: -100%; }  
+}
+
+/* CURSOR */
+

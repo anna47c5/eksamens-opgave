@@ -1,0 +1,48 @@
+img {
+    width: 100%;
+}
+
+.first_section_wrapper {
+    text-align: center;
+    justify-content: center;
+}
+
+.SVG {
+    transform: translate(10%, 40%);
+    z-index: -1;
+}
+
+/*
+#splash {
+    background-image: url(SVG/Asset1.svg);
+    background-size: cover;
+}
+
+.bue {
+    background-image: url(SVG/Asset2.svg);
+    background-size: cover;
+}
+*/
+
+/* #first_section .first_section_wrapper { */
+    /*lave grid og splashbillede der kun fylder selve siden */
+   /* display: grid;
+    height: 100vh;
+  } 
+  
+  .first_section_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .first_section_wrapper .SVG,
+  .section_wrapper1 img {
+    grid-area: 1 / 1;
+  }
+  
+  .first_section_wrapper .SVG {
+    z-index: 1;
+    place-self: center;
+  } */
+

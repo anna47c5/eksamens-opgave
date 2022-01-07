@@ -4,8 +4,7 @@
     box-sizing: border-box;
   }
 
-  img,
-  video {
+img, video {
     max-width: 100%;
     max-height: 100%;
   }
@@ -13,6 +12,11 @@
 
 body {
 cursor: url(SVG/maincursor.png), auto;
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+margin:0;
+padding:0;
 }
 
 
@@ -44,6 +48,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position:absolute;
+    display:contents;
     
   } 
   
@@ -98,6 +104,7 @@ li:last-child :hover {
 
 .marqueeborder {
     border: solid 2px black;
+    overflow: hidden;
     margin-bottom: 20px;
     margin-top: 20px;
     border-left: none;
@@ -105,8 +112,8 @@ li:last-child :hover {
 }
 
 .marquee {
-    white-space: nowrap;
-    animation: rightThenLeft 6s linear;
+    white-space:nowrap;
+    animation: rightThenLeft 5s linear;
     position: relative;
     font-size: 2rem;
     text-align: center;
@@ -122,10 +129,49 @@ li:last-child :hover {
     font-size: 4rem;
 }
 
+.marqueeborder1 {
+    border: solid 2px black;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.marquee1 {
+    white-space: nowrap;
+    animation: leftThenRight 5s linear;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+    animation-iteration-count:infinite;
+    margin: 10px;
+
+}
+
+.marqueeborder1 :hover {
+    background-image: url(Billeder/newspaper.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 4rem;
+}
+
 @keyframes rightThenLeft {
     0% { left: 100%; }
     100% { left: -100%; }  
 }
 
+@keyframes leftThenRight {
+    0% { right: 100%; }
+    100% { right: -100%; }  
+}
+
 /* CURSOR */
 
+
+/* FIRST SECTION */
+
+.first_section_wrapper {
+    margin: 50px;
+    margin-top: 70px;
+}

@@ -15,7 +15,6 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 } */
-
 /*
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
@@ -32,5 +31,16 @@ function myFunction() {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
+  }
+}
+
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.fontSize = "1rem";
+  } else {
+    document.getElementById("header").style.fontSize = "1rem";
   }
 } */

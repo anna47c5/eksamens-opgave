@@ -1,3 +1,7 @@
+/* MAIN */
+
+
+
 img {
     width: 100%;
 }
@@ -31,6 +35,7 @@ img {
   align-items: center;
   /* min-height: 400px;
   padding: 100px 20vw; */
+  padding: 0%;
 }
 
 #second_section .section_wrapper {
@@ -41,20 +46,39 @@ img {
   background-size: cover;
 }
 
-.section_wrapper .box1:last-child {
+#second_section .section_wrapper .box1:last-child {
   margin-top: 8rem;
 }
 
-.section_wrapper .box1:first-child {
+#second_section .section_wrapper .box1:first-child {
+  position: relative;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  opacity: 92%;
 }
 
+#second_section .section_wrapper .box1 {
+  display: grid;
+}
+
+#second_section .section_wrapper .box1:first-child:hover:after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background:url(Billeder/arrow.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .curve {
   position: absolute;
   height: 225px;
   width: 100%;
-  bottom: 0;
+  top: 0;
 }
 
 .curve::before {
@@ -62,10 +86,106 @@ img {
   display: block;
   position: absolute;
   border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: white;
+  transform: translate(-4%, -60%);
 }
 
 .curve::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: rgb(218, 214, 214);
+  transform: translate(81.8%, -34.5%);
+  z-index: -1;
+}
 
+.curve1 {
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve1::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: white;
+  transform: translate(81.9%, 65%);
+}
+
+.curve1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: rgb(240, 240, 240);
+  transform: translate(-4%, 39%);
+  z-index: -1;
+}
+
+/*
+.box1 figcaption {
+  grid-area: 1/1;
+  place-self: end start;
+  width: 100%;
+  height: 100%;
+}
+
+.box1 figcaption {
+  background-color: rgba(0, 0, 0, 0.377);
+  cursor: pointer;
+}
+
+.box1 figcaption:hover {
+  background-image: url(Billeder/arrow.jpg);
+  background-size: cover;
+  place-content: center;
+  z-index: -1;
+} 
+*/
+
+#second_section .button {
+  place-self: center;
+  position: absolute;
+  background-color: white;
+  border: black 2px solid;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 16px 52px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  top: 56%;
+  /* left: 43%; */
+}
+
+#second_section button:hover {
+  background-image: url(Billeder/blueuniverse.jpg);
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  top: 54%;
+}
+
+/* THIRD SECTION */
+
+#third_section {
+  background-color: rgb(240, 240, 240);
 }
 
 /*

@@ -16,12 +16,22 @@ img, video {
     max-height: 100%;
   }
 
+
+body {
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+margin:0;
+padding:0;
+}
+
+
 /* HEADER - NAV-BAR */
 
-#header {
+.header {
     overflow: hidden;
-    background-color: #333;
-  }
+    background-color: white;
+  } 
 
 /* Page content */
 .content {
@@ -78,8 +88,9 @@ li:last-child {
   }
 
 li:first-child :hover {
-    background-image: url(Billeder/psy1.jpg);
+    background-image: url(Billeder/poweruniverse.jpg);
     background-size: cover;
+    background-position: center;
     font-size: 4rem;
     color: white;
 }
@@ -102,8 +113,9 @@ li :active {
 }
 
 li:last-child :hover {
-    background-image: url(Billeder/skyes.jpg);
+    background-image: url(Billeder/universe.JPG);
     background-size: cover;
+    background-position: center;
     font-size: 4rem;
     color: white;
 }
@@ -112,12 +124,10 @@ li:last-child :active {
     text-align: left;
     font-size: 6rem;
 }
-
+  
 .marqueeborder {
     border: solid 2px black;
     overflow: hidden;
-    margin-bottom: 20px;
-    margin-top: 20px;
     border-left: none;
     border-right: none;
 }
@@ -187,7 +197,7 @@ li:last-child :active {
 
 .marquee2 {
     white-space:nowrap;
-    animation: rightThenLeft 4s linear;
+    animation: rightThenLeft2 4s linear;
     position: relative;
     font-size: 2rem;
     text-align: center;
@@ -195,8 +205,8 @@ li:last-child :active {
 }
 
 .marquee2 img {
-    width: 20%;
-    height: 20%;
+    width: 90%;
+    height: 90%;
 }
 
 .marqueeborder3 {
@@ -205,32 +215,39 @@ li:last-child :active {
     border-left: none;
     border-right: none;
     border-bottom: none;
-    justify-content: center;
+    border-top: none;
+    place-content: center;
 }
 
 .marquee3 {
     white-space:nowrap;
-    animation: leftThenRight 5s linear;
+    animation: leftThenRight3 5s linear;
     position: relative;
-    display: inline-block;
     font-size: 2rem;
     text-align: center;
     animation-iteration-count:infinite;
-    background-repeat: repeat-y;
-    background-image: url(Billeder/filmroll.jpg);
-
 }
 
 .marquee3 img {
-    width: 20%;
-    height: 20%;
-}
+    width: 90%;
+    height: 90%;
+} 
 @keyframes rightThenLeft {
     0% { left: 100%; }
     100% { left: -100%; }  
 }
 
 @keyframes leftThenRight {
+    0% { right: 100%; }
+    100% { right: -100%; }  
+}
+
+@keyframes rightThenLeft2 {
+    0% { left: 100%; }
+    100% { left: -100%; }  
+}
+
+@keyframes leftThenRight3 {
     0% { right: 100%; }
     100% { right: -100%; }  
 }

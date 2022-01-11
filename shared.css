@@ -308,6 +308,7 @@ li:last-child :active {
       display: flex;
       flex-flow: column;
       background-color: rgba(163, 17, 52, 0.6);
+      z-index: 1;
     }
 
     .marqueeborder {
@@ -334,17 +335,3 @@ li:last-child :active {
     justify-content: space-between;
     border: solid 2px black;
   }
-  
-::-webkit-scrollbar {
-    width: 15px;
-    background: #f7ece1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: red;
-    border-radius: calc(15px / 2);
-}
-
-/* CURSOR */
-
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur73.cur), auto !important;} /* End https://www.cursors-4u.com */

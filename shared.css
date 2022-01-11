@@ -345,30 +345,6 @@ li:last-child :active {
     border-radius: calc(15px / 2);
 }
 
-/* FOOTER */
-@media (max-width: 785px) {
-  footer {
-    text-align: center;
-    justify-content: center;
-  }
-}
-@media (min-width: 700px) {
-  footer {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 15%;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 4rem;
-    color: white;
-    font-family: poppins;
-    letter-spacing: 5px;
-  }
-}
 /* CURSOR */
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur73.cur), auto !important;} /* End https://www.cursors-4u.com */

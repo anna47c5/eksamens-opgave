@@ -1,8 +1,8 @@
 /* FIRST SECTION */
   
   #first_section {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
     border: solid 0.5rem rgb(218, 214, 214);
     padding: 1rem;
   }
@@ -18,6 +18,15 @@
 }
 
 @media (max-width: 850px) {
+
+  /* FIRST SECTION */
+  
+  #first_section {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    border: solid 0.5rem rgb(218, 214, 214);
+    padding: 1rem;
+  }
 
   #second_section {
     padding: 1rem;

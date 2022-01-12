@@ -7,12 +7,8 @@
   background-color: rgb(240, 240, 240);
 }
 
-#first_section h2{
-    text-align: center;
-}
-
 #first_section {
-    margin-top: 8rem;
+    margin-top: 10rem;
     margin-bottom: 15rem;
     position: relative;
     display: flex;
@@ -26,7 +22,7 @@
   #first_section .section_wrapper1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: 100px;
+    column-gap: 50px;
     background-color: rgb(218, 214, 214);
     background-size: cover;
     padding-bottom: 2rem;
@@ -40,16 +36,31 @@
     opacity: 92%;
     background-color: white;
     color: black;
-    text-align: center;
-    padding: 20px;
+    font-size: 0.2rem;
+    padding: 10rem;
   }
   
   #first_section .section_wrapper1 .text-box:hover {
     opacity: 92%;
     background-color: rgb(92, 11, 11);
     color: white;
+    font-size: 1rem;
+    padding: 2rem;
     cursor: pointer;
-    font-size: 5rem;
+  }
+
+  #first_section .text-box a{
+    text-decoration: none;
+    color: white;
+    font-weight:lighter;
+    font-size: 1.5rem;
+  }
+
+  #first_section .text-box a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight:lighter;
+    color: rgb(218, 214, 214);
   }
 
   #first_section .section_wrapper1 {
@@ -181,7 +192,14 @@
 #second_section .grid-item2 {
   color: black;
   background-color: white;
-  padding: 1rem;
+  font-size: 0.2rem;
+  padding: 10rem;
+}
+
+#second_section .grid-item2 a{
+  text-decoration: none;
+  color: white;
+  font-weight:lighter;
 }
 
 #second_section .grid-item2:hover {
@@ -189,7 +207,14 @@
   color: white;
   opacity: 90%;
   cursor: pointer;
-  font-size: 5rem;
+  font-size: 1.3rem;
+  padding: 2rem;
+}
+
+#second_section .grid-item2 a:hover{
+  text-decoration: none;
+  font-weight:lighter;
+  color: rgb(218, 214, 214);
 }
 
 /* THIRD SECTION*/
@@ -231,6 +256,13 @@
   margin-bottom: 44.6px;
   margin-top: 40px;
   margin-left: 10px;
+}
+
+#third_section .grid-item2 a {
+  text-decoration: none;
+  color: rgb(37, 121, 199);
+  font-size: 1.4rem;
+  font-weight:lighter;
 }
 
 #third_section .section_wrapper3 .grid-item4 {
@@ -321,6 +353,13 @@
   margin-right: 15rem;
 }
 
+#fifth_section .text-box a {
+  text-decoration: none;
+  color: rgb(122, 99, 83);
+  font-size: 1.4rem;
+  font-weight:lighter;
+}
+
 #fifth_section .grid-item:last-child {
   padding-top: 9rem;
 }
@@ -357,17 +396,24 @@
 #sixth_section .text-box1 {
   background-color: white;
   color: black;
-  padding: 2rem;
-  padding-left: 0.8rem;
+  padding: 5rem;
   margin-bottom: 0.2010rem;
+  text-align: center;
 }
 
 #sixth_section .text-box2 {
   background-color: white;
   color: black;
-  padding: 2rem;
-  padding-right: 0.1rem;
+  padding: 9rem;
   margin-bottom: 0.2010rem;
+  text-align: center;
+}
+
+#sixth_section .text-box2 a {
+  text-decoration: none;
+  color: rgb(230, 88, 206);
+  font-size: 1.2rem;
+  font-weight:lighter;
 }
 
 #sixth_section .grid-item2 {
@@ -385,16 +431,23 @@
 #sixth_section .text-box3 {
   background-color: white;
   color: black;
-  padding: 2rem;
-  padding-left: 0.8rem;
+  padding: 9rem;
+  text-align: center;
+}
+
+#sixth_section .text-box3 a {
+  text-decoration: none;
+  color: rgb(230, 88, 206);
+  font-size: 1.2rem;
+  font-weight:lighter;
 }
 
 #sixth_section .text-box4 {
   background-color: white;
   color: black;
-  padding: 2rem;
-  padding-right: 0.1rem;
+  padding: 9rem;
   margin-bottom: 0.2010rem;
+  text-align: center;
 }
 }
 
@@ -407,13 +460,8 @@
   background-color: rgb(240, 240, 240);
 }
 
-#first_section h2{
-    text-align: center;
-    padding: 2rem;
-}
-
 #first_section {
-    margin-top: 8rem;
+    margin-top: 5rem;
     margin-bottom: 15rem;
     position: relative;
     display: flex;
@@ -435,6 +483,14 @@
     color: black;
     text-align: center;
     padding: 20px;
+    padding-top: 2rem;
+  }
+
+  #first_section .section_wrapper1 .text-box a{
+   text-decoration: none;
+   color: rgb(92, 11, 11);
+   font-weight:lighter;
+    font-size: 1.5rem;
   }
 
   #first_section .section_wrapper1 {
@@ -567,14 +623,14 @@
   color: black;
   background-color: white;
   padding: 1rem;
+  font-size: 0.8rem;
 }
 
-#second_section .grid-item2:hover {
-  background-color: rgb(3, 41, 8);
-  color: white;
-  opacity: 90%;
-  cursor: pointer;
-  font-size: 5rem;
+#second_section .grid-item2 a{
+  text-decoration: none;
+  color: rgb(4, 44, 4);
+  font-weight:lighter;
+  font-size: 1rem;
 }
 
 /* THIRD SECTION*/
@@ -604,13 +660,20 @@
 
 #third_section .section_wrapper3 .grid-item2 {
   background-color: rgb(218, 214, 214);
-  padding-top: rem;
+  padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 0.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   margin-bottom: 44.6px;
   margin-top: 2rem;
   margin-left: 10px;
+}
+
+#third_section .grid-item2 a {
+  text-decoration: none;
+  color: rgb(37, 121, 199);
+  font-size: 1.4rem;
+  font-weight:lighter;
 }
 
 #third_section .section_wrapper3 .grid-item4 {
@@ -696,6 +759,13 @@
   margin-right: 5rem;
 }
 
+#fifth_section .text-box a {
+  text-decoration: none;
+  color: rgb(122, 99, 83);
+  font-size: 1.4rem;
+  font-weight:lighter;
+}
+
 #fifth_section .grid-item:first-child {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -714,7 +784,7 @@
 
 #sixth_section {
   margin-top: 15rem;
-    margin-bottom: 10rem;
+  margin-bottom: 5rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -727,7 +797,6 @@
 #sixth_section .section_wrapper6 {
   background-color: rgb(218, 214, 214);
   padding-bottom: 4rem;
-  margin-bottom: 10rem;
 }
 
 #sixth_section .text-box1 {
@@ -736,6 +805,7 @@
   padding: 2rem;
   padding-bottom: 0rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 #sixth_section .text-box2 {
@@ -743,6 +813,14 @@
   color: black;
   padding: 2rem;
   margin-top: 2rem;
+  text-align: center;
+}
+
+#sixth_section .text-box2 a {
+  text-decoration: none;
+  color: rgb(230, 88, 206);
+  font-size: 1.2rem;
+  font-weight:lighter;
 }
 
 #sixth_section .grid-item2 {
@@ -763,6 +841,14 @@
   padding: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
+}
+
+#sixth_section .text-box3 a {
+  text-decoration: none;
+  color: rgb(230, 88, 206);
+  font-size: 1.2rem;
+  font-weight:lighter;
 }
 
 #sixth_section .text-box4 {
@@ -771,5 +857,6 @@
   padding: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 }

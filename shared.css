@@ -25,7 +25,9 @@ margin:0;
 padding:0;
 }
 
-
+footer {
+  margin-bottom: 2rem;
+}
 /* HEADER - NAV-BAR */
 
 header {
@@ -275,7 +277,7 @@ li:last-child :active {
   }
   @media (max-width: 850px) {
     .toggle-btn {
-      background: lightgray;
+      background: white;
       border: solid 2px black;
       border-top: none;
       border-bottom: none;
@@ -291,7 +293,7 @@ li:last-child :active {
   
     .toggle-btn:hover {
       color: white;
-      background: #a60832;
+      background: rgb(218, 214, 214);
     }
   
     nav {
@@ -308,7 +310,7 @@ li:last-child :active {
     nav ul {
       display: flex;
       flex-flow: column;
-      background-color: rgba(163, 17, 52, 0.6);
+      background-color: white;
       z-index: 1;
     }
 
@@ -330,9 +332,9 @@ li:last-child :active {
     border-bottom: 2px black solid;
 }
 
-  
   .burgermenu {
     display: flex;
     justify-content: space-between;
-    border: solid 2px black;
+    border: solid 2px black; 
   }
+}

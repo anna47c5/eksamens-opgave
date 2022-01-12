@@ -1,4 +1,6 @@
-/* FIRST SECTION */
+
+@media (min-width: 850px) {
+  /* FIRST SECTION */
 
 #first_section h1 {
   padding: 2rem;
@@ -179,6 +181,7 @@
 #second_section .grid-item2 {
   color: black;
   background-color: white;
+  padding: 1rem;
 }
 
 #second_section .grid-item2:hover {
@@ -234,7 +237,6 @@
   margin-left: 10px;
 }
 
-
 /* FOURTH SECTION */
 
 #fourth_section h1 {
@@ -280,6 +282,7 @@
   padding-top: 2rem;
   column-gap: 40px;
 }
+
 /* FIFTH SECTION */
 
 #fifth_section h1 {
@@ -392,4 +395,381 @@
   padding: 2rem;
   padding-right: 0.1rem;
   margin-bottom: 0.2010rem;
+}
+}
+
+@media (max-width: 850px) {
+
+/* FIRST SECTION */
+
+#first_section h1 {
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+}
+
+#first_section h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+#first_section {
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 400px;
+    padding: 100px 20vw; */
+    padding: 0%;
+  }
+  
+  #first_section .section_wrapper1 {
+    background-color: rgb(218, 214, 214);
+    padding-bottom: 2rem;
+  }
+  
+  #first_section .section_wrapper1 .text-box {
+    opacity: 92%;
+    background-color: rgb(218, 214, 214);
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #first_section .section_wrapper1 {
+    display: grid;
+  }
+ 
+  
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(168, 26, 26);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgb(168, 26, 26);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: rgb(168, 26, 26);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(168, 26, 26);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* SECOND SECTION */
+#second_section h1 {
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+}
+
+#second_section {
+  margin-bottom: 15rem;
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 400px;
+    padding: 100px 20vw; */
+    padding: 0%;
+}
+
+#second_section .section_wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 2rem;
+  column-gap: 10px;
+  background-color: rgb(218, 214, 214);
+}
+
+#second_section .grid-item2 {
+  color: black;
+  background-color: white;
+  padding: 1rem;
+}
+
+#second_section .grid-item2:hover {
+  background-color: rgb(3, 41, 8);
+  color: white;
+  opacity: 90%;
+  cursor: pointer;
+  font-size: 5rem;
+}
+
+/* THIRD SECTION*/
+
+#third_section h1 {
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+}
+
+#third_section {
+    margin-bottom: 15rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 400px;
+    padding: 100px 20vw; */
+    padding: 0%;
+}
+
+#third_section .section_wrapper3 {
+  background-color: white;
+  display: grid;
+  border: solid 1rem rgb(218, 214, 214);
+  border-left: solid 2rem rgb(218, 214, 214);
+}
+
+#third_section .section_wrapper3 .grid-item2 {
+  background-color: rgb(218, 214, 214);
+  padding-top: rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 44.6px;
+  margin-top: 2rem;
+  margin-left: 10px;
+}
+
+#third_section .section_wrapper3 .grid-item4 {
+  margin-left: 10px;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+/* FOURTH SECTION */
+
+#fourth_section h1 {
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+}
+
+#fourth_section {
+    margin-bottom: 15rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 400px;
+    padding: 100px 20vw; */
+    padding: 0%;
+}
+
+#fourth_section .text-box {
+  background-color: rgb(218, 214, 214);
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+#fourth_section .section_wrapper4 {
+  background-color: rgb(218, 214, 214);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#fourth_section .section_wrapper4_1 {
+  background-color: rgb(218, 214, 214);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+/* FIFTH SECTION */
+
+#fifth_section h1 {
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+}
+
+#fifth_section {
+  margin-bottom: 15rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 400px;
+    padding: 100px 20vw; */
+    padding: 0%;
+}
+
+#fifth_section .section_wrapper5 {
+  background-color: rgb(218, 214, 214);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  column-gap: 5rem;
+  
+}
+
+#fifth_section .text-box {
+  background-color: rgb(218, 214, 214);
+  padding-top: 2.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+#fifth_section .grid-item:first-child {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#fifth_section .grid-item:last-child {
+  padding-top: 2rem;
+}
+
+/* SIXTH SECTION */
+
+#sixth_section h1 {
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+}
+
+#sixth_section {
+  margin-top: 15rem;
+    margin-bottom: 10rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 400px;
+    padding: 100px 20vw; */
+    padding: 0%;
+}
+
+#sixth_section .section_wrapper6 {
+  background-color: rgb(218, 214, 214);
+  padding-bottom: 4rem;
+  margin-bottom: 10rem;
+}
+
+#sixth_section .text-box1 {
+  background-color: rgb(218, 214, 214);
+  color: black;
+  padding: 2rem;
+  padding-bottom: 0rem;
+  margin-bottom: 2rem;
+}
+
+#sixth_section .text-box2 {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+#sixth_section .grid-item2 {
+ padding-top: 2.8rem;
+}
+
+#sixth_section .grid-item3 {
+  padding-top: 2rem;
+}
+
+#sixth_section .grid-item4 {
+  padding-top: 2rem;
+}
+
+#sixth_section .text-box3 {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#sixth_section .text-box4 {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 }

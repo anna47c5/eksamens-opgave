@@ -253,12 +253,13 @@ li:last-child :active {
 }
 
 /*Header & Burgermenu*/
-@media (max-width: 785px) {
+@media (max-width: 850px) {
     .logo {
       display: none;
+
     }
   }
-  @media (min-width: 785px) {
+  @media (min-width: 850px) {
     .bm_logo {
       display: none;
     }
@@ -272,7 +273,7 @@ li:last-child :active {
     /* left: 7.5%; */
     text-align: center;
   }
-  @media (max-width: 785px) {
+  @media (max-width: 850px) {
     .toggle-btn {
       background: lightgray;
       border: solid 2px black;

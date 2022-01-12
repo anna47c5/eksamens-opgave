@@ -10,8 +10,8 @@
 }
 
 #first_section {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 8rem;
+    margin-bottom: 15rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -158,7 +158,7 @@
 }
 
 #second_section {
-  margin-top: 5rem;
+  margin-bottom: 15rem;
   position: relative;
     display: flex;
     flex-direction: column;
@@ -198,8 +198,7 @@
 }
 
 #third_section {
-  margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -245,8 +244,7 @@
 }
 
 #fourth_section {
-  margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -262,8 +260,8 @@
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
-  margin-left: 40rem;
-  margin-right: 40rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 
 #fourth_section .section_wrapper4 {
@@ -291,8 +289,7 @@
 }
 
 #fifth_section {
-  margin-top: 5rem;
-    margin-bottom: 5rem;
+  margin-bottom: 15rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -309,6 +306,7 @@
   padding-bottom: 2rem;
   padding-top: 2rem;
   column-gap: 5rem;
+  
 }
 
 #fifth_section .text-box {
@@ -317,13 +315,12 @@
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 
 #fifth_section .grid-item:last-child {
-  padding-top: 15rem;
-  padding-bottom: 2rem;
+  padding-top: 9rem;
 }
 
 /* SIXTH SECTION */
@@ -334,8 +331,8 @@
 }
 
 #sixth_section {
-  margin-top: 5rem;
-    margin-bottom: 5rem;
+  margin-top: 15rem;
+    margin-bottom: 10rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -350,21 +347,50 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  padding-bottom: 2rem;
-  padding-top: 2rem;
   column-gap: 2rem;
-  row-gap: 2rem;
+  padding-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 #sixth_section .text-box1 {
   background-color: white;
   color: black;
   padding: 2rem;
-  padding-left: 0.5rem;
+  padding-left: 0.8rem;
   margin-bottom: 0.2010rem;
 }
 
-#sixt_section .text-box2 {
- background-color: white;
- 
+#sixth_section .text-box2 {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  padding-right: 0.1rem;
+  margin-bottom: 0.2010rem;
+}
+
+#sixth_section .grid-item2 {
+ padding-top: 2.8rem;
+}
+
+#sixth_section .grid-item3 {
+  padding-top: 2rem;
+}
+
+#sixth_section .grid-item4 {
+  padding-top: 3.5rem;
+}
+
+#sixth_section .text-box3 {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  padding-left: 0.8rem;
+}
+
+#sixth_section .text-box4 {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  padding-right: 0.1rem;
+  margin-bottom: 0.2010rem;
 }
